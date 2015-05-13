@@ -19,8 +19,8 @@ use LWP::UserAgent;             # may be build-in
 use HTML::Entities;
 use Net::POP3;                  # may be build-in
 use Net::SMTP;                  # may be build-in
-use MIME::Base64;               # may be build-in
-#use MIME::Lite 3.0 ();                 # may be build-in
+#use MIME::Base64;               # may be build-in
+#use MIME::Lite 3.0 ();          # may be build-in
 use Net::FTP;
 use XML::Parser;                # may be build-in
 use XML::Simple;
@@ -47,4 +47,3 @@ print "Content-type:text/html\n\n";
 print "Modules TEST N5. DONE OK.\n\n";
 <STDIN>;
 exit();
-
